@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iHn9qPvjHk4MRUsmIWLinG3zqQolv+nf+8JPcFVk0AgFgyRSykKv2HZP6183ClJGhbTk2JdsiqZtq5ef5MHWrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\evana\\source\\repos\\MediatorDemo\\CommandsAndHandlers\\CommandsAndHandlers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

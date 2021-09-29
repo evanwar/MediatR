@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notifications", "Notifications\Notifications.csproj", "{20F7E1F4-52BB-4158-8AC6-778D08784D87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationsMediator", "NotificationsMediator\NotificationsMediator.csproj", "{2E418846-F3EC-4D3E-9DA5-2F5CEB57FEC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{4FDA6B11-75E5-4188-AC1C-B4FFF3A119F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandsAndHandlers", "CommandsAndHandlers\CommandsAndHandlers.csproj", "{89946010-46AD-478D-8CBB-C790A5D380A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorClient", "MediatorClient\MediatorClient.csproj", "{FB30A5E3-1793-47F8-BE10-8BB972D9A21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadiatRDemo", "MadiatRDemo\MadiatRDemo.csproj", "{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F7E1F4-52BB-4158-8AC6-778D08784D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F7E1F4-52BB-4158-8AC6-778D08784D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F7E1F4-52BB-4158-8AC6-778D08784D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F7E1F4-52BB-4158-8AC6-778D08784D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E418846-F3EC-4D3E-9DA5-2F5CEB57FEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E418846-F3EC-4D3E-9DA5-2F5CEB57FEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E418846-F3EC-4D3E-9DA5-2F5CEB57FEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E418846-F3EC-4D3E-9DA5-2F5CEB57FEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDA6B11-75E5-4188-AC1C-B4FFF3A119F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDA6B11-75E5-4188-AC1C-B4FFF3A119F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDA6B11-75E5-4188-AC1C-B4FFF3A119F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDA6B11-75E5-4188-AC1C-B4FFF3A119F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89946010-46AD-478D-8CBB-C790A5D380A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89946010-46AD-478D-8CBB-C790A5D380A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89946010-46AD-478D-8CBB-C790A5D380A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89946010-46AD-478D-8CBB-C790A5D380A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB30A5E3-1793-47F8-BE10-8BB972D9A21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB30A5E3-1793-47F8-BE10-8BB972D9A21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB30A5E3-1793-47F8-BE10-8BB972D9A21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB30A5E3-1793-47F8-BE10-8BB972D9A21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {737FBC24-1172-4A8A-91CB-304234276483}
+	EndGlobalSection
+EndGlobal

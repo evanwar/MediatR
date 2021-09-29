@@ -1,0 +1,15 @@
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\bin\Debug\net5.0\CommandsAndHandlers.deps.json
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\bin\Debug\net5.0\CommandsAndHandlers.dll
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\bin\Debug\net5.0\ref\CommandsAndHandlers.dll
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\bin\Debug\net5.0\CommandsAndHandlers.pdb
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\bin\Debug\net5.0\Mediator.dll
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\bin\Debug\net5.0\Mediator.pdb
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.csproj.AssemblyReference.cache
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.AssemblyInfoInputs.cache
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.AssemblyInfo.cs
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.csproj.CoreCompileInputs.cache
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.csproj.CopyComplete
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.dll
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\ref\CommandsAndHandlers.dll
+C:\Users\evana\source\repos\MediatorDemo\CommandsAndHandlers\obj\Debug\net5.0\CommandsAndHandlers.pdb
