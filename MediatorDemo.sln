@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandsAndHandlers", "Comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorClient", "MediatorClient\MediatorClient.csproj", "{FB30A5E3-1793-47F8-BE10-8BB972D9A21F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MadiatRDemo", "MadiatRDemo\MadiatRDemo.csproj", "{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MadiatRDemo", "MadiatRDemo\MadiatRDemo.csproj", "{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behaviors", "Behaviors\Behaviors.csproj", "{2F97979F-DA0B-4725-9AE2-EA0624C3F7E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7FFCB5-014F-44E0-BEB7-E6D26BE7A10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F97979F-DA0B-4725-9AE2-EA0624C3F7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F97979F-DA0B-4725-9AE2-EA0624C3F7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F97979F-DA0B-4725-9AE2-EA0624C3F7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F97979F-DA0B-4725-9AE2-EA0624C3F7E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
