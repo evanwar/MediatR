@@ -33,3 +33,5 @@ C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.dll
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\ref\CQR.dll
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.pdb
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.genruntimeconfig.cache
+C:\Users\evana\source\repos\MediatorDemo\CQR\bin\Debug\net5.0\MediatR.dll
+C:\Users\evana\source\repos\MediatorDemo\CQR\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

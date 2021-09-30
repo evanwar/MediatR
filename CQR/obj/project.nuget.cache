@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6Ez7jdTREk9I5Qb5hZIXeUCQRcPMDw6AeZFPw3Q2TFQgDCQBemCnmr43kukVTAO2rIHfwepcSJThbdsNs7OSyQ==",
+  "dgSpecHash": "zkouGgcvJHI3u8XQsEJd0J0/Bf0wTcOub1gvDqQGw/agvCsQ9u2EIGkrZUCSTEFIrK7Ho57Ane8ugJP6uFoxww==",
   "success": true,
   "projectFilePath": "C:\\Users\\evana\\source\\repos\\MediatorDemo\\CQR\\CQR.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\evana\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\evana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\evana\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\evana\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\evana\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

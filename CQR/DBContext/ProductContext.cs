@@ -30,7 +30,7 @@ namespace CQR.DBContext
                 command.CommandType = CommandType.Text;
 
                 command.CommandText =
-                $"INSERT INTO Products({nameof(product.Name)},{nameof(product.QuantityPerUnit)},{nameof(product.Description)},{nameof(product.UnitPrice)},{nameof(product.UnitInStock)},{nameof(product.ReporderLevel)},{nameof(product.Discontinued)},{nameof(product.UnitsOnOrder)}) VALUES(@{nameof(product.Name)},@{nameof(product.QuantityPerUnit)},@{nameof(product.Description)},@{nameof(product.UnitPrice)},@{nameof(product.UnitInStock)},@{nameof(product.ReporderLevel)},@{nameof(product.Discontinued)},@{nameof(product.UnitsOnOrder)});  SELECT @@Identity";
+                $"INSERT INTO Products({nameof(product.Name)},{nameof(product.QuantityPerUnit)},{nameof(product.Description)},{nameof(product.UnitPrice)},{nameof(product.UnitsInStock)},{nameof(product.Reporderlevel)},{nameof(product.Discontinued)},{nameof(product.UnitsOnOrder)}) VALUES(@{nameof(product.Name)},@{nameof(product.QuantityPerUnit)},@{nameof(product.Description)},@{nameof(product.UnitPrice)},@{nameof(product.UnitsInStock)},@{nameof(product.Reporderlevel)},@{nameof(product.Discontinued)},@{nameof(product.UnitsOnOrder)});  SELECT @@Identity";
 
                 SetSqlParameters(command.Parameters, product);
 
@@ -189,7 +189,7 @@ namespace CQR.DBContext
                 command.CommandType = CommandType.Text;
 
                 command.CommandText =
-                $"UPDATE Products SET {nameof(product.Name)} = @{nameof(product.Name)},{nameof(product.QuantityPerUnit)} = @{nameof(product.QuantityPerUnit)}, {nameof(product.Description)} = @{nameof(product.Description)},{nameof(product.UnitPrice)} = @{nameof(product.UnitPrice)},{nameof(product.UnitInStock)} = @{nameof(product.UnitInStock)},{nameof(product.ReporderLevel)} = @{nameof(product.ReporderLevel)},{nameof(product.Discontinued)} = @{nameof(product.Discontinued)},{nameof(product.UnitsOnOrder)} = @{nameof(product.UnitsOnOrder)} WHERE {nameof(Product.Id)} = @{nameof(Product.Id)};";
+                $"UPDATE Products SET {nameof(product.Name)} = @{nameof(product.Name)},{nameof(product.QuantityPerUnit)} = @{nameof(product.QuantityPerUnit)}, {nameof(product.Description)} = @{nameof(product.Description)},{nameof(product.UnitPrice)} = @{nameof(product.UnitPrice)},{nameof(product.UnitsInStock)} = @{nameof(product.UnitsInStock)},{nameof(product.Reporderlevel)} = @{nameof(product.Reporderlevel)},{nameof(product.Discontinued)} = @{nameof(product.Discontinued)},{nameof(product.UnitsOnOrder)} = @{nameof(product.UnitsOnOrder)} WHERE {nameof(Product.Id)} = @{nameof(Product.Id)};";
 
                 SetSqlParameters(command.Parameters, product);
 
@@ -222,8 +222,8 @@ namespace CQR.DBContext
             parameters.AddWithValue($"@{nameof(product.QuantityPerUnit)}", product.QuantityPerUnit);
             parameters.AddWithValue($"@{nameof(product.Description)}", product.Description);
             parameters.AddWithValue($"@{nameof(product.UnitPrice)}", product.UnitPrice);
-            parameters.AddWithValue($"@{nameof(product.UnitInStock)}", product.UnitInStock);
-            parameters.AddWithValue($"@{nameof(product.ReporderLevel)}", product.ReporderLevel);
+            parameters.AddWithValue($"@{nameof(product.UnitsInStock)}", product.UnitsInStock);
+            parameters.AddWithValue($"@{nameof(product.Reporderlevel)}", product.Reporderlevel);
             parameters.AddWithValue($"@{nameof(product.Discontinued)}", product.Discontinued);
             parameters.AddWithValue($"@{nameof(product.UnitsOnOrder)}", product.UnitsOnOrder);
         }
@@ -238,9 +238,9 @@ namespace CQR.DBContext
                 QuantityPerUnit = reader.GetString(nameof(Product.QuantityPerUnit)),
                 Description = reader.GetString(nameof(Product.Description)),
                 UnitPrice = reader.GetDecimal(nameof(Product.UnitPrice)),
-                UnitInStock = reader.GetInt32(nameof(Product.UnitInStock)),
+                UnitsInStock = reader.GetInt32(nameof(Product.UnitsInStock)),
                 UnitsOnOrder = reader.GetInt32(nameof(Product.UnitsOnOrder)),
-                ReporderLevel = reader.GetInt32(nameof(Product.ReporderLevel)),
+                Reporderlevel = reader.GetInt32(nameof(Product.Reporderlevel)),
                 Discontinued = reader.GetBoolean(nameof(Product.Discontinued))
             };
         }
