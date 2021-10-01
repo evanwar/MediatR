@@ -1,4 +1,4 @@
-﻿using CQR.Models;
+﻿using CQR.Entities.POCOs;
 using MediatR;
 using System;
 using System.Collections.Generic;

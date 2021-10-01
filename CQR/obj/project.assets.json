@@ -712,6 +712,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MediatR >= 9.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Swashbuckle.AspNetCore >= 6.2.2",
       "System.Data.SqlClient >= 4.8.3"
@@ -764,6 +765,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[9.0.0, )"

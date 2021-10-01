@@ -1,12 +1,13 @@
 ﻿using CQR.Aplication.Commands;
 using CQR.DBContext;
+using CQR.Entities.Exceptions;
 using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace CQR.Aplication.Handlers
 {
-    public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand, bool>
+    public class DeleteProductCommandHandler : AsyncRequestHandler<DeleteProductCommand>
     {
         private readonly IProductContext context;
 
@@ -15,9 +16,12 @@ namespace CQR.Aplication.Handlers
             this.context = context;
         }
 
-        public async Task<bool> Handle(DeleteProductCommand request, CancellationToken cancellationToken)
+
+
+        protected async override Task Handle(DeleteProductCommand request, CancellationToken cancellationToken)
         {
-            return await context.Remove(request.Id);
+            if (!await context.Remove(request.Id))
+                throw new GeneralException($"El producto {request.Id} no pudo ser eliminado.");
         }
     }
 }

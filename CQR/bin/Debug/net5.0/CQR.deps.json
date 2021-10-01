@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "CQR/1.0.0": {
         "dependencies": {
+          "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Swashbuckle.AspNetCore": "6.2.2",
           "System.Data.SqlClient": "4.8.3",

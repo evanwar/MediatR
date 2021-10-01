@@ -2,7 +2,7 @@
 
 namespace CQR.Aplication.Commands
 {
-    public class UpdateProductCommand : IRequest<bool>
+    public class UpdateProductCommand : IRequest
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CQR.Aplication.Commands
 {
-    public class DeleteProductCommand : IRequest<bool>
+    public class DeleteProductCommand : IRequest
     {
         public int Id { get; set; }
     }

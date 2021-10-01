@@ -1,4 +1,5 @@
-﻿using CQR.Models;
+﻿using CQR.Entities.Exceptions;
+using CQR.Entities.POCOs;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -40,16 +41,16 @@ namespace CQR.DBContext
                 await command.DisposeAsync();
 
             }
-            catch (Exception ex)
+            catch
             {
-                Console.WriteLine(ex.Message);
+                throw new GeneralException("Elemento no creado");
             }
             finally
             {
                 await Connection.DisposeAsync();
             }
 
-            return commandExecutionResult == null ? -1 : Convert.ToInt32(commandExecutionResult);
+            return Convert.ToInt32(commandExecutionResult);
 
         }
 

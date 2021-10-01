@@ -1,4 +1,7 @@
 using CQR.DBContext;
+using CQR.Entities.Exceptions;
+using CQR.ExceptionsHandlers;
+using CQR.Filters;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,7 +33,14 @@ namespace CQR
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers(options =>
+            {
+                options.Filters.Add(new ApiExceptionFilterAttribute(new Dictionary<Type, IExceptionHandler>
+                {
+                    { typeof(EntityNotFoundException),new EntityNotFoundExceptionHandler()},
+                    {typeof(GeneralException),new GeneralExeptionHandler() }
+                }));
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CQR", Version = "v1" });

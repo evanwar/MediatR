@@ -26,3 +26,4 @@ C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifica
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\ref\Notifications.dll
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.pdb
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.genruntimeconfig.cache
+C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.csproj.AssemblyReference.cache

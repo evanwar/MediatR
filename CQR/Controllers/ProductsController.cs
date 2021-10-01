@@ -21,16 +21,7 @@ namespace CQR.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(CreateProductCommand command)
         {
-            IActionResult Result = BadRequest("No se ha creado el producto.");
-
-            int Id = await mediator.Send(command);
-
-            if (Id > 0)
-            {
-                Result = Ok($"Producto creado : {Id}");
-            }
-
-            return Result;
+            return Ok(await mediator.Send(command));
         }
 
 
@@ -38,14 +29,7 @@ namespace CQR.Controllers
         [HttpPut]
         public async Task<IActionResult> Update(UpdateProductCommand command)
         {
-            IActionResult Result = BadRequest("No se ha modificado el producto.");
-
-            if (await mediator.Send(command))
-            {
-                Result = Ok($"Producto actualizado : {command.Id}");
-            }
-
-            return Result;
+            return Ok(await mediator.Send(command));
         }
 
 
@@ -54,14 +38,7 @@ namespace CQR.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(DeleteProductCommand command)
         {
-            IActionResult Result = BadRequest("No se ha eliminado el producto.");
-
-            if (await mediator.Send(command))
-            {
-                Result = Ok($"Producto eliminado : {command.Id}");
-            }
-
-            return Result;
+            return Ok(await mediator.Send(command));
         }
 
 
@@ -75,16 +52,7 @@ namespace CQR.Controllers
         [HttpGet]
         public async Task<IActionResult> GetById(int id)
         {
-            IActionResult Result = BadRequest("Elemento no encontrado");
-
-            var product = await mediator.Send(new GetProductByIdQuery { Id = id });
-
-            if (product != null)
-            {
-                Result = Ok(product);
-            }
-
-            return Result;
+            return Ok(await mediator.Send(new GetProductByIdQuery { Id = id }));
         }
 
 
