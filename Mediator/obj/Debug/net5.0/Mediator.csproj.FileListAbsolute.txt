@@ -2,7 +2,6 @@ C:\Users\evana\source\repos\MediatorDemo\Mediator\bin\Debug\net5.0\Mediator.deps
 C:\Users\evana\source\repos\MediatorDemo\Mediator\bin\Debug\net5.0\Mediator.dll
 C:\Users\evana\source\repos\MediatorDemo\Mediator\bin\Debug\net5.0\ref\Mediator.dll
 C:\Users\evana\source\repos\MediatorDemo\Mediator\bin\Debug\net5.0\Mediator.pdb
-C:\Users\evana\source\repos\MediatorDemo\Mediator\obj\Debug\net5.0\Mediator.csproj.AssemblyReference.cache
 C:\Users\evana\source\repos\MediatorDemo\Mediator\obj\Debug\net5.0\Mediator.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\evana\source\repos\MediatorDemo\Mediator\obj\Debug\net5.0\Mediator.AssemblyInfoInputs.cache
 C:\Users\evana\source\repos\MediatorDemo\Mediator\obj\Debug\net5.0\Mediator.AssemblyInfo.cs
