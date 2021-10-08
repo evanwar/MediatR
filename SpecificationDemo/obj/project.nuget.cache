@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "SlVMfHksu8I8eq9S+TbYQ5Eq5sRimwe3Em7HsboCj9kOvLtrw/cFz/phJKQ1+LQQCJpimybVYKTwUdeTMCD19w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\evana\\source\\repos\\MediatorDemo\\SpecificationDemo\\SpecificationDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\evana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\evana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -14,7 +14,8 @@ namespace CQR.ExceptionsHandlers
                new Dictionary<int, string>
                {
                    {StatusCodes.Status500InternalServerError,"https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-p2-semantics-26#section-6.6.1" },
-                   {StatusCodes.Status404NotFound, "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-p2-semantics-26#section-6.5.4"}
+                   {StatusCodes.Status404NotFound, "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-p2-semantics-26#section-6.5.4"},
+                    {StatusCodes.Status400BadRequest, "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-p2-semantics-26#section-6.5.1"}
                };
 
 
