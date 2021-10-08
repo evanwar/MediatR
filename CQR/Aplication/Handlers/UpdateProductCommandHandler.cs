@@ -1,6 +1,6 @@
 ﻿using CQR.Aplication.Commands;
 using CQR.DBContext;
-using CQR.Models;
+using CQR.Entities.Exceptions;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CQR.Aplication.Handlers
 {
-    public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, bool>
+    public class UpdateProductCommandHandler : AsyncRequestHandler<UpdateProductCommand>
     {
 
         private readonly IProductContext context;
@@ -20,18 +20,25 @@ namespace CQR.Aplication.Handlers
             this.context = context;
         }
 
-        public async Task<bool> Handle(UpdateProductCommand request, CancellationToken cancellationToken)
+
+
+        protected async override Task Handle(UpdateProductCommand request, CancellationToken cancellationToken)
         {
             var product = await context.GetById(request.Id);
 
-            if (product is null) return false;
+            if (product is null)
+            {
+                throw new EntityNotFoundException("Producto", request.Id);
+            }
 
             product.Name = request.Name;
             product.QuantityPerUnit = request.QuantityPerUnit;
             product.Description = request.Description;
             product.UnitPrice = request.UnitePrice;
 
-            return await context.Update(product);
+            if (await context.Update(product))
+                throw new GeneralException($"El producto {request.Id} no pudo ser modificado.");
+
         }
     }
 }

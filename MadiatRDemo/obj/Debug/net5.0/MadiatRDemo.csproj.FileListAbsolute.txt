@@ -13,7 +13,6 @@ C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\bin\Debug\net5.0\Microsoft.
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.csproj.AssemblyReference.cache
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.AssemblyInfoInputs.cache
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.AssemblyInfo.cs

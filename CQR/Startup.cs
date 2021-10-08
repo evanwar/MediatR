@@ -1,4 +1,9 @@
+using CQR.Aplication.Common.Behaviors;
 using CQR.DBContext;
+using CQR.Entities.Exceptions;
+using CQR.ExceptionsHandlers;
+using CQR.Filters;
+using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,7 +35,15 @@ namespace CQR
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers(options =>
+            {
+                options.Filters.Add(new ApiExceptionFilterAttribute(new Dictionary<Type, IExceptionHandler>
+                {
+                    { typeof(EntityNotFoundException),new EntityNotFoundExceptionHandler()},
+                    {typeof(GeneralException),new GeneralExeptionHandler() },
+                        {typeof(ValidationException),new ValidationExceptionHandler() }
+                }));
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CQR", Version = "v1" });
@@ -40,6 +53,9 @@ namespace CQR
 
             services.AddSingleton<IProductContext>(
                 new ProductContext(Configuration.GetConnectionString("CQRSDemo")));
+
+            services.AddValidatorsFromAssembly(typeof(Startup).Assembly);
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidatorBehavior<,>));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

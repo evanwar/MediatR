@@ -1,10 +1,8 @@
 ﻿using CQR.Aplication.Queries;
 using CQR.DBContext;
-using CQR.Models;
+using CQR.Entities.Exceptions;
+using CQR.Entities.POCOs;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -21,7 +19,14 @@ namespace CQR.Aplication.Handlers
 
         public async Task<Product> Handle(GetProductByIdQuery request, CancellationToken cancellationToken)
         {
-            return await context.GetById(request.Id);
+            var product = await context.GetById(request.Id);
+
+            if (product is null)
+            {
+                throw new EntityNotFoundException("Prouducto", request.Id);
+            }
+
+            return product;
         }
     }
 }

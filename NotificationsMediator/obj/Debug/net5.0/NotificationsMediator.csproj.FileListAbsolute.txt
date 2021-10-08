@@ -11,7 +11,6 @@ C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\bin\Debug\net5.0\
 C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\obj\Debug\net5.0\NotificationsMediator.csproj.AssemblyReference.cache
 C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\obj\Debug\net5.0\NotificationsMediator.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\obj\Debug\net5.0\NotificationsMediator.AssemblyInfoInputs.cache
 C:\Users\evana\source\repos\MediatorDemo\NotificationsMediator\obj\Debug\net5.0\NotificationsMediator.AssemblyInfo.cs

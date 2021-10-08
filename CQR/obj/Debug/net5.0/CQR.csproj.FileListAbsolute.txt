@@ -28,10 +28,11 @@ C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\staticwebassets\CQ
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\staticwebassets\CQR.StaticWebAssets.xml
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\scopedcss\bundle\CQR.styles.css
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.RazorTargetAssemblyInfo.cache
-C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.csproj.CopyComplete
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.dll
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\ref\CQR.dll
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.pdb
 C:\Users\evana\source\repos\MediatorDemo\CQR\obj\Debug\net5.0\CQR.genruntimeconfig.cache
 C:\Users\evana\source\repos\MediatorDemo\CQR\bin\Debug\net5.0\MediatR.dll
 C:\Users\evana\source\repos\MediatorDemo\CQR\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\evana\source\repos\MediatorDemo\CQR\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\evana\source\repos\MediatorDemo\CQR\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

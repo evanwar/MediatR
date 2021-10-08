@@ -1,6 +1,7 @@
 ﻿using CQR.Aplication.Queries;
 using CQR.DBContext;
-using CQR.Models;
+using CQR.Entities.Exceptions;
+using CQR.Entities.POCOs;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,12 @@ namespace CQR.Aplication.Handlers
 
         public async Task<IEnumerable<Product>> Handle(GetAllProductQuery request, CancellationToken cancellationToken)
         {
-            return await context.GetAll();
+            var products = await context.GetAll();
+
+            if (products is null)
+                throw new GeneralException("Error al obtener la lista de productos.");
+
+            return products;
         }
     }
 }
