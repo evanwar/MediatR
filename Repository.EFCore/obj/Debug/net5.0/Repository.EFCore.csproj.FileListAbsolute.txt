@@ -1,0 +1,17 @@
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Repository.EFCore.deps.json
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Repository.EFCore.runtimeconfig.json
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Repository.EFCore.runtimeconfig.dev.json
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Repository.EFCore.dll
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\ref\Repository.EFCore.dll
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Repository.EFCore.pdb
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Entities.dll
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\bin\Debug\net5.0\Entities.pdb
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.csproj.AssemblyReference.cache
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.AssemblyInfoInputs.cache
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.AssemblyInfo.cs
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.dll
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\ref\Repository.EFCore.dll
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.pdb
+C:\Users\evana\source\repos\MediatorDemo\Repository.EFCore\obj\Debug\net5.0\Repository.EFCore.genruntimeconfig.cache

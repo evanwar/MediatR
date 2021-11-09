@@ -23,8 +23,8 @@ C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\staticwebass
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\staticwebassets\Behaviors.StaticWebAssets.xml
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\scopedcss\bundle\Behaviors.styles.css
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\Behaviors.RazorTargetAssemblyInfo.cache
-C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\Behaviors.csproj.CopyComplete
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\Behaviors.dll
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\ref\Behaviors.dll
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\Behaviors.pdb
 C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\Behaviors.genruntimeconfig.cache
+C:\Users\evana\source\repos\MediatorDemo\Behaviors\obj\Debug\net5.0\Behaviors.csproj.AssemblyReference.cache

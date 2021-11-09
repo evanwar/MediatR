@@ -1,0 +1,17 @@
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\RepositoryDemo.IoC.deps.json
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\RepositoryDemo.IoC.dll
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\ref\RepositoryDemo.IoC.dll
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\RepositoryDemo.IoC.pdb
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\Entities.dll
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\Repository.EFCore.dll
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\Repository.EFCore.pdb
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\bin\Debug\net5.0\Entities.pdb
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.csproj.AssemblyReference.cache
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.AssemblyInfoInputs.cache
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.AssemblyInfo.cs
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.csproj.CoreCompileInputs.cache
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.dll
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\ref\RepositoryDemo.IoC.dll
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.pdb
+C:\Users\evana\source\repos\MediatorDemo\RepositoryDemo.IoC\obj\Debug\net5.0\RepositoryDemo.IoC.csproj.CopyComplete

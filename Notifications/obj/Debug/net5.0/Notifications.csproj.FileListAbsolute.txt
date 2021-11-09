@@ -21,7 +21,6 @@ C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\staticwe
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\staticwebassets\Notifications.StaticWebAssets.xml
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\scopedcss\bundle\Notifications.styles.css
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.RazorTargetAssemblyInfo.cache
-C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.csproj.CopyComplete
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.dll
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\ref\Notifications.dll
 C:\Users\evana\source\repos\MediatorDemo\Notifications\obj\Debug\net5.0\Notifications.pdb

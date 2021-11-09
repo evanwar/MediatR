@@ -23,8 +23,8 @@ C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\staticweba
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\staticwebassets\MadiatRDemo.StaticWebAssets.xml
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\scopedcss\bundle\MadiatRDemo.styles.css
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.RazorTargetAssemblyInfo.cache
-C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.csproj.CopyComplete
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.dll
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\ref\MadiatRDemo.dll
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.pdb
 C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.genruntimeconfig.cache
+C:\Users\evana\source\repos\MediatorDemo\MadiatRDemo\obj\Debug\net5.0\MadiatRDemo.csproj.AssemblyReference.cache
